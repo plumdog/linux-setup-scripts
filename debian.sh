@@ -14,8 +14,6 @@ xmonad --recompile
 # change to use zshell
 sudo chsh -s /usr/bin/zsh andrew
 
-sudo apt-get autoremove
-
 # install my dotfiles with vcsh so things feel homely
 vcsh clone https://github.com/plumdog/dotemacs emacs
 vcsh clone https://github.com/plumdog/dotzshrc zshrc
