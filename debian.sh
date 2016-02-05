@@ -8,7 +8,19 @@ sudo apt-get update
 sudo apt-get upgrade
 
 # install some packages
-sudo apt-get install xmonad zsh emacs vcsh feh gmrun slock keepassx xmobar openssh-server wmctrl
+sudo apt-get install \
+    xmonad \
+    zsh \
+    emacs \
+    vcsh \
+    feh \
+    gmrun \
+    slock \
+    keepassx \
+    xmobar \
+    openssh-server \
+    wmctrl \
+    silversearcher-ag
 
 
 # change to use zshell
