@@ -8,7 +8,7 @@ sudo apt-get update
 sudo apt-get upgrade
 
 # install some packages
-sudo apt-get install xmonad zsh emacs vcsh feh gmrun slock keepassx xmobar
+sudo apt-get install xmonad zsh emacs vcsh feh gmrun slock keepassx xmobar openssh-server wmctrl
 
 
 # change to use zshell
