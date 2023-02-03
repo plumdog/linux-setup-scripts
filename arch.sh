@@ -8,13 +8,10 @@ sudo pacman -Syu \
     emacs \
     feh \
     dmenu \
-    slock \
-    keepassx \
     keepass \
     xmobar \
     wmctrl \
-    wget \
-    openssh
+    wget
 
 wget https://raw.githubusercontent.com/plumdog/linux-setup-scripts/master/arch/aur.sh -O ~/aur.sh
 chmod a+x ~/aur.sh
