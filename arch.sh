@@ -16,7 +16,10 @@ sudo pacman -Syu \
     wget \
     openssh
 
-bash <(curl aur.sh) -si \
+wget https://raw.githubusercontent.com/plumdog/linux-setup-scripts/master/arch/aur.sh -O ~/aur.sh
+chmod a+x ~/aur.sh
+
+~/aur.sh \
     vcsh \
     google-chrome \
     dropbox \
@@ -26,8 +29,8 @@ sudo ln -s /usr/bin/google-chrome-stable /usr/bin/google-chrome
 
 # ... openssh-server? ag?
 
-sudo systemctl enable dhcpcd
-sudo systemctl enable dropbox@$USER
+# sudo systemctl enable dhcpcd
+# sudo systemctl enable dropbox@$USER
 
 # change to use zshell
 sudo chsh -s /usr/bin/zsh $USER
